@@ -1,0 +1,52 @@
+# General
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.bak
+Thumb.db
+
+# Java
+*.class
+*.jar
+*.class
+*.war
+*.par
+.dbshell
+
+# Gradle
+build
+dist
+!gradle-wrapper.jar
+.gradle
+artifacts
+artifacts.xml
+gradle-local.properties
+
+# Maven
+target
+
+# Eclipse specific
+bin
+classes
+.classpath
+.project
+.sonar
+.settings
+.externalToolBuilders
+.ant-targets-build.xml
+.metadata
+.recommenders
+RemoteSystemsTempFiles
+
+# IntelliJ IDEA
+*.iml
+.idea
+
+# Ivy
+ivy-cache
+
+
+# Merge
+*.orig
